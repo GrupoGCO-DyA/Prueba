@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LPYONATANAH</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkbqLDHMbY0CuyUVSsHHRJwAAAAACAAAAAAADZgAAwAAAABAAAACCaMXs6Trmi+4HalgeQdfoAAAAAASAAACgAAAAEAAAAEB24l+p/8nl7kfgiOSBLoeIAAAA58T/WfYbnjdjfWGyxmkp+Ts+bmhAuaM2AvwrGcxk+VdHc52hzuC7noDSi07FubXeUqgDWW0tyCqg2GIUvsULZ27eFdos6Fmkn29AqV98Twvr6lTq8dDJ0r3A+vcQz+9xyM7mbTpFW2QDrA6LrsMTOBUHoCzqVallSNHqDlvtA8I3O/4cdfRn2BQAAADobcaJfMcEAJsxMnIkTKe9iaFoBQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3hSyugcD0kWxKz0+EQxphwAAAAACAAAAAAADZgAAwAAAABAAAABhjhItDBaMofJZ4T0UgGd2AAAAAASAAACgAAAAEAAAABSzR/NMrTFGfCwnSbk4zdqIAAAAejm/T6N94TQbtslvUxsp8+wUcAlwgyEotoK0IkQ1rY2MX3+An2QL3vI/WvU+FNP5BpMIbDEwvhi1ZDycPM3POtLkoseY/ytwzBYhfhRpdk+Tb+a25gBxZDun6it45TBAgc9D1B77wB+E+QbdW1QGwWFThCrc8FRTVKbkMBVSr2h3ZYlqr+OdtRQAAAA9SmcsIsPKEonDvehCLoohctezWA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="jjss.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -46,6 +47,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{F741B7BB-66F7-4F3D-9D94-9BA717F467ED}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="jjss.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{19768A23-B5B7-4AD9-83DC-43978B35ADCF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">jjss</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FB8381D6-B110-467B-B3EC-51216FF47FBB}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
