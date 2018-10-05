@@ -11,8 +11,8 @@
   DTS:LocaleID="9226"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{137BC566-8AF8-4B87-9178-0CFD1C3D0AF7}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{1E89D1AB-0ADB-4A48-9342-ABD05A4BD48E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -33,13 +33,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Execute SQL Task"
+      DTS:refId="Package\jjss"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{A02307F6-0C05-4FDC-AFFC-2B13F95A3B5B}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute SQL Task"
+      DTS:ObjectName="jjss"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
@@ -53,7 +53,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{DD4104D0-AF4E-49A2-B2BB-7D3EB068977F}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\jjss"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Data Flow Task" />
@@ -71,22 +71,22 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="163,42"
-          Id="Package\Execute SQL Task"
-          TopLeft="295,91" />
-        <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task"
           TopLeft="362,213" />
+        <NodeLayout
+          Size="95,42"
+          Id="Package\jjss"
+          TopLeft="295,91" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="376.5,133">
+          TopLeft="342.5,133">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="61,80"
+              EndConnector="95,80"
               Start="0,0"
-              End="61,72.5">
+              End="95,72.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -97,13 +97,13 @@
                     Point2="0,40"
                     Point3="4,40" />
                   <mssgle:LineSegment
-                    End="57,40" />
+                    End="91,40" />
                   <mssgle:CubicBezierSegment
-                    Point1="57,40"
-                    Point2="61,40"
-                    Point3="61,44" />
+                    Point1="91,40"
+                    Point2="95,40"
+                    Point3="95,44" />
                   <mssgle:LineSegment
-                    End="61,72.5" />
+                    End="95,72.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
